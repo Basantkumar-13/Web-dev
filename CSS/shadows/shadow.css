@@ -1,0 +1,20 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red,50px 50px 40px rgb(12, 89, 12);
+}
+
+.box{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px -10px 15px orange,15px 15px 15px green;
+    color: red;
+
+}
+
+
+
+/* usually use two parameters for creating shadow(10px 10px)
+and for the blur shadow use three parameters(10px 10px 10px)third is for blurness
+and for the double shadow write one more time (3px 3px 3px red,50px 50px 40px rgb(12, 89, 12));
+to change shadow position use negative value*/
